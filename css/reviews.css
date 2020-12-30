@@ -1,0 +1,81 @@
+
+body{
+	background-color: #E9E9E9;
+}
+
+.reviews{
+	padding:4em;
+}
+
+.carousel-inner-custom{
+	min-height: 10em;
+	background-color: white;
+	border-radius: 1em;
+}
+
+.carousel-item-custom{
+	padding: 4em;
+}
+
+.carousel-custom{
+	padding: 0 7em;
+}
+
+.carousel-control-prev-icon-custom,
+.carousel-control-next-icon-custom {
+  height: 2em;
+  width: 2em;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon-custom:after
+{
+  content: '>';
+  font-size: 2em;
+  color: red;
+}
+
+.carousel-control-prev-icon-custom:after {
+  content: '<';
+  font-size: 2em;
+  color: red;
+}
+
+.h-review{
+	padding-bottom: 1em;
+}
+
+.work{
+	color: white;
+}
+
+.carousel-work{
+	margin-top: 2em;
+	padding: 2em 0;
+	background-color: #2A2A34;
+	background: radial-gradient(black, #2A2A34);
+}
+
+.div-btn-review{
+	padding: 5em 0;
+}
+
+.btn-review{
+	width: 20em;
+}
+
+@media (max-width: 991.98px) {
+	.carousel-custom{
+		padding: 0;
+	}
+
+	.reviews{
+		padding:2em;
+	}
+
+	.carousel-item-custom{
+	padding: 3.5em;
+}
+}

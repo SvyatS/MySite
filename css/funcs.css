@@ -1,0 +1,23 @@
+.div-icon{
+	padding: 3em;
+}
+
+.func{
+	padding: 2em;
+}
+
+.card{
+	transition: 0.5s;
+}
+
+.card:hover{
+	background-color: #E9E9E9;
+	transition: 0.5s;
+}
+
+@media (max-width: 991.98px) {
+	.left-pad{
+		padding-left: 5em;
+	}
+
+}

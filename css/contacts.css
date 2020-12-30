@@ -1,0 +1,36 @@
+.div-icon{
+	padding: 3em;
+}
+
+.func{
+	padding: 2em;
+}
+
+.card{
+	transition: 0.5s;
+}
+
+.card:hover{
+	background-color: #E9E9E9;
+	transition: 0.5s;
+}
+
+.div-btn-contacts{
+	padding: 4em 0;
+}
+
+.contacts{
+	padding: 5em 0;
+}
+
+.h-contacts{
+	padding: 3em 0;
+}
+
+@media (max-width: 575.98px) {
+	.card-deck{
+		padding-left: 6em;
+	}
+
+}
+

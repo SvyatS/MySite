@@ -1,0 +1,78 @@
+.main-picture{
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.270313) 9.38%, rgba(0, 0, 0, 0.3) 99.99%, rgba(255, 255, 255, 0) 100%), url(../imgs/desktopimg.jpg);
+	background-size: 120%;
+	height: 50em;
+	margin: 0;
+    padding: 0;
+}
+
+.main-words{
+	font-family: Raleway Regular;
+	color: white;
+	padding: 40px;
+	font-size: 48px;
+	line-height: 75px;
+	letter-spacing: 0.1em;
+}
+
+.time-words{
+	font-family: Roboto Regular;
+	color: white;
+	padding: 20px 40px;
+	font-size: 32px;
+	line-height: 56px;
+	letter-spacing: 0.05em;
+}
+
+.lite-words{
+	font-family: Roboto Light;
+	color: white;
+	padding: 100px 40px;
+	font-size: 32px;
+	line-height: 56px;
+	letter-spacing: 0.05em;
+}
+
+.phone{
+	background-color: #FFCA00;
+	font-family: Roboto Light;
+	color: black;
+	font-size: 24px;
+	width: 17em;
+	margin: 0;
+    padding: 10px;
+    padding-left: 7em;
+}
+
+
+@media (max-width: 991.98px) {
+	.main-picture{
+		background: linear-gradient(180deg, rgba(0, 0, 0, 0.270313) 9.38%, rgba(0, 0, 0, 0.3) 99.99%, rgba(255, 255, 255, 0) 100%), url(../imgs/phoneimg.jpg);
+		background-size: 120%;
+	}
+
+	.main-words{
+		font-size: 36px;
+		line-height: 64px;
+	}
+
+	.time-words{
+		font-size: 24px;
+		line-height: 48px;
+	}
+
+	.lite-words{
+		font-size: 24px;
+		line-height: 48px;
+	}
+
+	.phone{
+		width: 12em;
+		padding-left: 4em;
+	}
+
+	.h-phone{
+		font-size: 21px;
+	}
+}
+

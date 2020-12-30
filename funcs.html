@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/funcs.css">
+    <title>Услуги</title>
+  </head>
+  <body>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Форма обратной связи</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Имя:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+            <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Телефон:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Сообщение:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">Отправить</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div id="primary-nav">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2A2A34;">
+          <a class="navbar-brand" href="#">
+             <img src="imgs/screwdriver.svg" width="40" height="40" class="d-inline-block align-top" alt="">
+              Альдента мастер
+          </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Услуги</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Прайс-лист</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Отзывы</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Контакты</a>
+                </li>
+              </ul>
+              <ul class="nav collapse navbar-collapse justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link links" href="https://wa.me/79234334699">
+                    <img src="imgs/whatsapp.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                  </a> 
+                </li>
+                <li class="nav-item"><a class="nav-link" href="tg://resolve?domain=SvyatSp">
+                 <img src="imgs/telegram.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                </a> 
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="container func">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 left-pad">
+
+          <div class="col mb-4">
+            <div class="card" style="width: 21em;">
+              <div class="div-icon">
+                <img src="imgs/windows-2.svg" class="card-img-top" alt="..." width="40px" height="40px">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Установка Windows</h5>
+              </div>
+            </div>
+          </div>
+
+           <div class="col mb-4">
+            <div class="card" style="width: 21em;">
+              <div class="div-icon">
+                <img src="imgs/linux.svg" class="card-img-top" alt="..." width="40px" height="40px">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Установка Linux</h5>
+              </div>
+            </div>
+          </div>
+
+           <div class="col mb-4">
+            <div class="card" style="width: 21em;">
+              <div class="div-icon">
+                <img src="imgs/construction.svg" class="card-img-top" alt="..." width="40px" height="40px">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Установка драйверов/ПО</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card" style="width: 21em;">
+              <div class="div-icon">
+                <img src="imgs/folder.svg" class="card-img-top" alt="..." width="40px" height="40px">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Восстановление данных</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card" style="width: 21em;">
+              <div class="div-icon">
+                <img src="imgs/fire.svg" class="card-img-top" alt="..." width="40px" height="40px">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Устранение нагрева</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card" style="width: 21em;">
+              <div class="div-icon">
+                <img src="imgs/antivirus.svg" class="card-img-top" alt="..." width="40px" height="40px">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Лечение от вирусов</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card" style="width: 21em;">
+              <div class="div-icon">
+                <img src="imgs/settings.svg" class="card-img-top" alt="..." width="40px" height="40px">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Ремонт ПК</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card" style="width: 21em;">
+              <div class="div-icon">
+                <img src="imgs/online-chat.svg" class="card-img-top" alt="..." width="40px" height="40px">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Удаленная техподдержка</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card" style="width: 21em;">
+              <div class="div-icon">
+                <img src="imgs/toolbox.svg" class="card-img-top" alt="..." width="40px" height="40px">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Cборка ПК</h5>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+      <div class="text-right div-back-call bottom-fixed">
+          <button type="button" class="btn btn-primary btn-call" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Заказать обратный звонок</button>
+      </div>
+    </div>
+
+     
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
